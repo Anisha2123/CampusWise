@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Jost:wght@100&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // border:1px solid red;
+  height:100vh;
+}
+.verified{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  height:100vh;
+  width:100%;
+  gap:2rem;
+  // border:1px solid red;
+  width:100%;
+}
+
+.verified h2{
+    color:#1A1043;
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+   }
+   .verified h2 span{
+    color:#F75E78;
+   }
+   .verified li{
+      margin-top: 4rem;
+    padding:2rem 1.5rem;
+    border-radius: 0.2rem;
+    border:1.5px solid rgb(228, 225, 225)
+  
+   }
+  
+   .verified li form{
+      padding:4rem 2rem 0rem 2rem;
+   }
+   
+   
+   .verified li form button{
+    color:#fff;
+    height:2rem;
+    width:20rem;
+    border:none;
+    margin-top: 1rem;
+    background-color: #F75E78;
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+    cursor: pointer;
+  }
+  
+  .verified form h3{
+      margin-top: 2rem;
+      font-weight: 100;
+  }
+
+@media only screen and (max-width: 462px){
+
+    .verified{
+       
+    
+  }
+  .verified li h1{
+    font-size: 1.5rem;
+  }
+  .verified li .para{
+    font-size: 0.7rem;
+  }
+  .box{
+    
+  }
+  .verified .box input{
+    width:10rem;
+    height:1.5rem;
+  }
+  .verified form img{
+    height:5rem;
+  }
+  .verified li form button{
+    width:15rem;
+   
+  }
+  .verified li{
+    padding:1rem 0.5rem;
+  }
+  .verified li form{
+    padding:1rem 0.5rem 0rem 0.5rem;
+  
+ }
+
+}

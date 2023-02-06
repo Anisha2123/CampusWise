@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Jost:wght@100&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  height:100vh;
+}
+.signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  height:100vh;
+  width:100%;
+  gap:2rem;
+ 
+
+}
+.signup h2{
+  color:#1A1043;
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+ 
+ }
+ .signup h2 span{
+  color:#F75E78;
+ }
+ .signup li{
+  padding:2rem 1.5rem;
+  border-radius: 0.2rem;
+  border:1.5px solid rgb(228, 225, 225)
+
+ }
+ .signup li h1{
+  font-size: 2.5rem;
+  color:#1A1043;
+ }
+ .signup li form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* border:1px solid black; */
+ }
+ .signup form .box{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding:1rem;
+  border:1.5px solid rgb(228, 225, 225);
+  border-bottom: none;
+  border-radius: 0.2rem;
+  gap:1rem;
+ }
+ .signup form input{
+  height:2rem;
+  color:#1A1043;
+  border:none;
+  width:18rem;
+
+ }
+ .signup form input:focus{
+  outline: none;
+ }
+ .signup .icons{
+  color:rgba(247, 94, 120, 0.4);
+ }
+ .signup li form button{
+  color:#fff;
+  height:2rem;
+  width:100%;
+  border:none;
+  background-color: #F75E78;
+  border-radius: 0rem 0rem 0.4rem 0.4rem;
+  cursor: pointer;
+}
+.signup li .para{
+  font-size: 0.8rem;
+  color:#1A1043;
+  margin:0.5rem 0rem 1.5rem 0rem;
+  /* border:1px solid black; */
+}
+.signup footer{
+  margin-top: 2rem;
+}
+.signup footer p{
+   font-size: 0.8rem;
+   
+}
+.signup footer a {
+  text-decoration: none;
+  font-weight: bold;
+   color: #4285F4;
+}
+
+@media only screen and (max-width: 462px){
+  .signup li h1{
+    font-size: 1.5rem;
+  }
+  .signup li .para{
+    font-size: 0.7rem;
+  }
+  .signup .box{
+  }
+  .signup .box input{
+    width:10rem;
+    height:1.5rem;
+  }
+
+}

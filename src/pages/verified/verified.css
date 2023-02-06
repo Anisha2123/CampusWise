@@ -1,0 +1,95 @@
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Jost:wght@100&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height:100vh;
+}
+.verified{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  height:100vh;
+  width:100%;
+  gap:2rem;
+
+}
+ ul h2{
+  color:#1A1043;
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+ }
+ ul h2 span{
+  color:#F75E78;
+ }
+ ul li{
+    margin-top: 4rem;
+  padding:2rem 1.5rem;
+  border-radius: 0.2rem;
+  border:1.5px solid rgb(228, 225, 225)
+
+ }
+
+ ul li form{
+    padding:4rem 2rem 0rem 2rem;
+ }
+ 
+ 
+ul li form button{
+  color:#fff;
+  height:2rem;
+  width:20rem;
+  border:none;
+  margin-top: 1rem;
+  background-color: #F75E78;
+  border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+  cursor: pointer;
+}
+
+form h3{
+    margin-top: 2rem;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 462px){
+  ul li h1{
+    font-size: 1.5rem;
+  }
+  ul li .para{
+    font-size: 0.7rem;
+  }
+  .box{
+    
+  }
+  .box input{
+    width:10rem;
+    height:1.5rem;
+  }
+  form img{
+    height:5rem;
+  }
+  ul li form button{
+    width:15rem;
+   
+  }
+  ul li{
+    padding:1rem 0.5rem;
+  }
+  ul li form{
+    padding:1rem 0.5rem 0rem 0.5rem;
+  
+ }
+
+} */
