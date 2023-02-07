@@ -2,6 +2,7 @@
 
 
 import './login.css';
+import {Link } from 'react-router-dom'
 import {Person, Mail, Lock} from "@material-ui/icons";
 
 export const Login = () => {
@@ -23,7 +24,12 @@ export const Login = () => {
         <button>Login</button>
       </form>
       <footer>
-        <p>Don't have an account? <a href="#">Create one</a></p>
+        <p>Don't have an account? 
+          <Link to="/signup">Create one?</Link></p><br></br>
+          <p>Check other pages too!</p>
+          
+          <Link to="/otp" className='links'>Otp</Link>&nbsp;
+          <Link to="/verified"  className='links'>Verified</Link>
       </footer>
       </li>
         

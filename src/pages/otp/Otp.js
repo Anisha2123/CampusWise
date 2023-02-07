@@ -2,6 +2,7 @@
 
 import React from 'react'
 import './otp.css';
+import {Link } from 'react-router-dom'
 import {Person, Mail, Lock} from "@material-ui/icons";
 import left from "../left.png";
 import right from "../right.png";
@@ -29,7 +30,11 @@ export const Otp = () => {
       <p>Resend code in 2:00</p>
     </footer>
     <form>
-      <button>Verify</button>
+      <button>Verify</button><br></br><br></br>
+      <p>Check other pages too!</p>
+          
+          <Link to="/login" className='links'>Otp</Link>&nbsp;
+          <Link to="/verified"  className='links'>Verified</Link>
     </form>
     </li>
 

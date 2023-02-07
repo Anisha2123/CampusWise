@@ -100,6 +100,12 @@
   font-weight: bold;
    color: #4285F4;
 }
+ .links{
+  font-size: 1rem;
+  margin-right: 1rem;
+  color:#F75E78;
+  text-decoration: none;
+ }
 
 @media only screen and (max-width: 462px){
   .login li h1{
@@ -115,5 +121,6 @@
     width:10rem;
     height:1.5rem;
   }
+  
 
 }

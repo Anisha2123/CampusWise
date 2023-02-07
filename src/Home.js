@@ -7,7 +7,7 @@ export const Home = () => {
     <>
     <div className='home'>
       <div className='link'>
-      <Link to='/' className='links'>Home</Link>
+      {/* <Link to='/' className='links'>Home</Link> */}
       <Link to='/login' className='links'>Login</Link>
       <Link to='/signup' className='links'>Signup</Link>
       <Link to='/otp' className='links'>Otp</Link>
